@@ -32,7 +32,7 @@ function handleTaskCompletion(buttonId, taskTitleId) {
         if (task > 0) {
             task--;
             totalCompletedTask++;
-            pendingTaskElement.innerText = task; 
+            pendingTaskElement.innerText = `0${task}`; 
             totalTaskElement.innerText = totalCompletedTask; 
         }
 
